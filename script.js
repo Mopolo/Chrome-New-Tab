@@ -16,6 +16,14 @@ function uuid(a){return a?(0|Math.random()*16).toString(16):(""+1e7+-1e3+-4e3+-8
 
 function getTiles(callback) {
     chrome.storage.sync.get('new-tab-tiles', function(data) {
+        if (!data) {
+            return callback([]);
+        }
+
+        if (typeof data['new-tab-tiles'] == 'undefined') {
+            return callback([]);
+        }
+
         callback(data['new-tab-tiles']);
     });
 }

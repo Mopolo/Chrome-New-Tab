@@ -12,6 +12,6 @@
   ],
 
   "chrome_url_overrides": {
-    "newtab": "grid.html"
+    "newtab": "index.html"
   }
 }
