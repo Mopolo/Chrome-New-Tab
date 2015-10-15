@@ -1,0 +1,29 @@
+{
+    "edit_link_button": {
+        "message": "E"
+    },
+    "add_link_button": {
+        "message": "Add Link"
+    },
+    "add_link_title": {
+        "message": "Add a link"
+    },
+    "add_link_save_button": {
+        "message": "SAVE"
+    },
+    "add_link_save_cancel": {
+        "message": "CANCEL"
+    },
+    "add_link_input_name": {
+        "message": "Name"
+    },
+    "add_link_input_url": {
+        "message": "Url"
+    },
+    "add_link_input_color_text": {
+        "message": "Text color"
+    },
+    "add_link_input_color_bg": {
+        "message": "Background color"
+    }
+}

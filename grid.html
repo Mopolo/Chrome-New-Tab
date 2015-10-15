@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>New Tab</title>
+
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,900' rel='stylesheet' type='text/css'>
+        <link href="/grid.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="grid"></div>
+            <div id="add-link">
+                <h1 class="translate">add_link_title</h1>
+
+                <form id="add-link-form">
+                    <input type="hidden" id="formInputUuid" name="uuid" />
+
+                    <div class="form-group">
+                        <input type="text" id="formInputName" name="name" placeholder="add_link_input_name" />
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" id="formInputUrl" name="url" placeholder="add_link_input_url" />
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" id="formInputColorText" name="colorText" placeholder="add_link_input_color_text" />
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" id="formInputColorBg" name="colorBg" placeholder="add_link_input_color_bg" />
+                    </div>
+                </form>
+
+                <div class="actions">
+                    <span id="save-link" class="add-action translate">add_link_save_button</span>
+                    <span id="cancel-add" class="add-action translate">add_link_save_cancel</span>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div id="time"></div>
+        </footer>
+        <script src="vendor/minified-web.js"></script>
+        <script src="vendor/moment-with-locales.min.js"></script>
+        <script src="vendor/packery.pkgd.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
