@@ -5,6 +5,10 @@
   "description": "Simple new tab",
   "version": "1.0",
   "default_locale": "en",
+  "icons": {
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
 
   "permissions": [
     "storage",
